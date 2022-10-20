@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>family</title>
+    <style>
+        body {
+            background: url('ks3.jpg');
+            background-size: 1400px;
+            height: 1000px;
+
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .left img {
+            width: 50px;
+        }
+
+        .mid {
+            /* border: 2px solid rgb(248, 224, 7); */
+            display: block;
+            width: 35%;
+            margin: 2px auto;
+        }
+
+        .right {
+            /* border: 2px solid rgb(45, 22, 253); */
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 20px;
+        }
+
+        #first {
+            /* border: 2px solid red; */
+            border-radius: 11px;
+        }
+
+        #first:hover {
+            color: rgb(143, 173, 173);
+        }
+
+        #second:hover {
+            color: rgb(143, 173, 173);
+        }
+
+        #second {
+            border-radius: 11px;
+            /* border: 2px solid green; */
+        }
+
+        .navbar li {
+            display: inline-block;
+            margin: 8px;
+            padding: 3px 3px;
+            font-size: 22px;
+        }
+        
+        .navbar li a {
+            
+            text-decoration: none;
+            color: rgb(81, 104, 179);
+        }
+
+        .navbar li a:hover {
+            color: green;
+        }
+
+        .container {
+            color: red;
+            margin: 4px 4px;
+            padding: 3px 3ox;
+            text-align: center;
+            font-size: 60px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="papa.jpg" alt="not found"><br>
+            father <br>sahab
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="work2.html">Home</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="photo">photos</a></li>
+                <li><a href="video">video</a></li>
+                <li><a href="contact.html">contac us</a></li>
+            </ul>
+        </div>
+        <!-- <div class="right">
+            <buttton class="btn" id="first">call us</buttton>
+            <buttton class="btn" id="second">email us</buttton>
+        </div> -->
+        <div class="right">
+            <input type="button" value="call now" id="first">
+            <input type="button" value="E-mail now" id="second">
+        </div>
+    </header>
+    <div class="container">
+        king star <br>
+        welcome to my website
+    </div>
+</body>
+
+</html>
